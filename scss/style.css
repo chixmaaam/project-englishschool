@@ -1,0 +1,236 @@
+@charset "UTF-8";
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+  line-height: 1.8;
+  font-family: -apple-system, BlinkMacSystemFont, "Noto Sans JP", "ヒラギノ角ゴ ProN W3", "ヒラギノ角ゴ W3", "Hiragino Kaku Gothic ProN", "メイリオ", "Meiryo", sans-serif;
+  color: #053f5c;
+}
+
+.site-header {
+  display: flex;
+}
+
+.site-header-container {
+  margin: 8px 24px;
+}
+
+.site-header-logo {
+  display: flex;
+  flex-direction: row;
+}
+
+.site-header-nav ul {
+  list-style: none;
+}
+.site-header-nav li {
+  display: inline-block;
+}
+.site-header-nav li a {
+  text-decoration: none;
+  color: #000;
+}
+.site-header-nav .nav1 li {
+  margin: 12px 24px;
+}
+.site-header-nav .nav2 li {
+  background-color: #f27c02;
+  width: 224px;
+  height: 27px;
+  text-align: center;
+  border-radius: 90px;
+}
+.site-header-nav .nav2 li a {
+  color: #fff;
+}
+
+.tel-inquiry {
+  border: 2px solid #053f5c;
+  border-radius: 90px;
+  width: 238px;
+  height: 73px;
+  margin: auto;
+}
+
+.tel-button {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  text-align: center;
+}
+.tel-button img {
+  margin-right: 40px;
+  margin-top: 40px;
+  margin-left: auto;
+}
+.tel-button .tel-text {
+  font-weight: bold;
+  color: #053f5c;
+  margin-right: auto;
+}
+.tel-button .tel-text .tel-number {
+  font-size: 20px;
+  margin: -25px;
+}
+
+.hero {
+  background: url(../img/mainvisual/main.png) no-repeat center center;
+  background-size: cover;
+  height: 560px;
+}
+
+.main-nav ul {
+  list-style: none;
+  text-align: right;
+}
+.main-nav li {
+  display: inline-block;
+  margin: 16px 24px;
+  font-weight: bold;
+  font-size: 20;
+}
+.main-nav .nav-arrow {
+  text-decoration: none;
+  color: #053f5c;
+  position: relative;
+  display: inline-block;
+  padding-left: 20px;
+}
+.main-nav .nav-arrow::before {
+  content: "";
+  width: 6px;
+  height: 6px;
+  border: 0;
+  border-bottom: 2px solid #053f5c;
+  border-right: 2px solid #053f5c;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  margin-top: -6px;
+  transform: rotate(45deg);
+}
+
+.main-logo {
+  text-align: center;
+  margin: 190px auto 32px;
+}
+
+h1 {
+  text-align: center;
+  color: #fff;
+  font-size: 32px;
+  font-weight: 100;
+}
+
+h2 {
+  margin: 64px 360px 64px;
+  color: #053f5c;
+  border-bottom: 2px solid;
+  width: 560px;
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.popularity {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.popularity-sec {
+  width: 50%;
+  height: 50%;
+  position: relative;
+  box-sizing: border-box;
+  margin-bottom: -150px;
+}
+.popularity-sec img {
+  width: 400px;
+  height: 296px;
+  margin-left: 54px;
+}
+
+.popularity-text {
+  background-color: rgba(242, 124, 2, 0.8);
+  width: 356px;
+  height: 296px;
+  position: abs6olute;
+  transform: translate(232px, -182px);
+  margin: 15px 44px;
+}
+.popularity-text h3 {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}
+.popularity-text p {
+  font-size: 20px;
+  font-weight: 200;
+}
+
+.lesson-area {
+  background-color: #429ebd;
+}
+.lesson-area .lesson-title {
+  display: grid;
+  place-items: center;
+}
+.lesson-area h2 {
+  color: #fff;
+}
+.lesson-area h3 {
+  width: 100%;
+  background-color: #fff;
+  color: #053f5c;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.lesson-section {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.lesson-sec {
+  background-color: #fff;
+  width: 47%;
+  display: flex;
+  margin-left: 24px;
+  margin-top: 20px;
+}
+.lesson-sec img {
+  margin: 16px 27px;
+}
+
+.lesson-text h4 {
+  font-size: 24px;
+  font-weight: bold;
+}
+.lesson-text p {
+  font-size: 20px;
+}
+
+.lesson-cose {
+  margin-top: 48px;
+  display: flex;
+}
+.lesson-cose .lesson-cose-button {
+  display: block;
+  width: 47%;
+  height: 78px;
+  background-color: #fff;
+  margin-left: 24px;
+  text-align: center;
+  margin-top: 21px;
+  margin-bottom: 64px;
+}
+.lesson-cose .lesson-show {
+  text-decoration: none;
+  color: #053f5c;
+  font-size: 24px;
+  font-weight: bold;
+}/*# sourceMappingURL=style.css.map */

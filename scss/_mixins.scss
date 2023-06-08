@@ -1,0 +1,12 @@
+@mixin mq($breakpoint: md) {
+
+  $maxwidth: 768px;
+
+  @if $breakpoint ==lg {
+    $maxwidth: 992px;
+  }
+
+  @media screen and (max-width:$maxwidth) {
+    @content;
+  }
+}
