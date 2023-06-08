@@ -233,4 +233,12 @@ h2 {
   color: #053f5c;
   font-size: 24px;
   font-weight: bold;
+}
+
+.school-search {
+  background-color: #b3dbd8;
+  margin-left: 24px;
+}
+.school-search img {
+  margin-left: 20px;
 }/*# sourceMappingURL=style.css.map */
